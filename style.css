@@ -1,5 +1,8 @@
+
+@import url(styles/header.css);
+
 :root{
-    --cor-de-fundo: purple;
+    --cor-de-fundo: rgb(153, 103, 153);
 }
 body{
     background-color: var(--cor-de-fundo);
