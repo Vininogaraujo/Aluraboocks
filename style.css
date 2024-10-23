@@ -5,5 +5,5 @@
    --cor-de-fundo: #cf1ecf34te; 
 }
 body{
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
