@@ -5,6 +5,7 @@
          background-repeat: no repeat;
          background-position: center;
         display: inline-block;
+        position: relative;
     }
     .cabeçalho{
         background-color: aquamarine;
@@ -19,3 +20,16 @@
     .container_ imagem{
         padding: 1em;
     }
+    .lista-menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+}
+   .container__botao:checked ~ .lista-menu{
+    display: block;
+   }
+   .lista-menu__titulo, 
+   .lista-menu__item{
+    padding: 1em;
+    background-color: cornsilk;
+   }
