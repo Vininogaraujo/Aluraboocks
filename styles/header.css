@@ -5,13 +5,14 @@
          background-repeat: no repeat;
          background-position: center;
         display: inline-block;
-        position: relative;
+       
     }
     .cabeçalho{
         background-color: aquamarine;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
     .container{
         display: flex;
